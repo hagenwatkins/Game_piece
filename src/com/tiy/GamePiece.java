@@ -53,9 +53,11 @@ class GamePiece {
 
     public void freeze(boolean frozen) {
         this.frozen = true;
+        System.out.println("frozen");
     }
     public void unfreeze(boolean frozen){
         this.frozen = false;
+        System.out.println("unfreezef");
     }
 }
 
